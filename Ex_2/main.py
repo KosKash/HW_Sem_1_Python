@@ -1,16 +1,5 @@
 # ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z
 
-
-#x = int(input('x '))
-#if x == 1: x = True
-#else: x = False
-#y = int(input('y '))
-#if y == 1: y = True
-#else: y = False
-#z = int(input('z '))
-#if z == 1: z = True
-#else: z = False
-#print(x, y, z)
 count = 0
 bool_list = [False, True]
 for i in bool_list:

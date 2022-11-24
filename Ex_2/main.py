@@ -2,12 +2,9 @@
 
 count = 0
 bool_list = [False, True]
-for i in bool_list:
-    x = i
-    for j in bool_list:
-        y = j
-        for k in bool_list:
-            z = k
+for x in bool_list:
+    for y in bool_list:
+        for z in bool_list:
             left = (not (x or y or z))
             right = (not x and not y and not z)
             if left == right:
